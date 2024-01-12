@@ -1,0 +1,25 @@
+/*********************************************
+ * OPL 20.1.0.0 Data
+ * Author: MCA
+ * Creation Date: Mar 5, 2021 at 5:55:56 PM
+ *********************************************/
+
+m = 4;
+n = 30;
+T = 2;
+V1 = 2;
+V2 = 15;
+
+SheetConnection my_sheet("ParametersTrial30_4_2.xlsx");
+
+costofarc1 from SheetRead(my_sheet, "costofarc1");
+costofarc2 from SheetRead(my_sheet, "costofarc2");
+demand from SheetRead(my_sheet, "demand");
+costofarc0 from SheetRead (my_sheet, "costofarc00");
+costofarc3 from SheetRead(my_sheet, "costofarc3");
+costofarc4 from SheetRead(my_sheet, "costofarc4");
+distance0 from SheetRead(my_sheet, "distance0");
+distance1 from SheetRead(my_sheet, "distance1");
+distance2 from SheetRead(my_sheet, "distance2");
+distance3 from SheetRead(my_sheet, "distance3");
+distance4 from SheetRead(my_sheet, "distance4");
